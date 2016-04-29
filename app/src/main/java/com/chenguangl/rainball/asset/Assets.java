@@ -24,12 +24,12 @@ public class Assets {
 //
 //    public static Image[] gameImages;
 
-    public static Image splashBackground, mainBackground, gameBackground, tileBackground;
+    public static Image splashBackground, mainBackground, gameBackground, tileBackground, menuOverlay;
     public static Image startMenu, startMenuPressed, optionMenu, optionMenuPressed, exitMenu, exitMenuPressed,
             resumeMenu, resumeMenuPressed, quitMenu, quitMenuPressed;
     public static Image tapToStartText, gameOverText;
     public static Image redBall, redBallLarge, greenBall, greenBallLarge, blueBall, blueBallLarge,
-            yellowBall, yellowBallLarge, purpleBall, purpleBallLarge, greyBall, greyBallLarge;
+            yellowBall, yellowBallLarge, purpleBall, purpleBallLarge, cyanBall, cyanBallLarge, greyBall, greyBallLarge;
 
 //    public static void load(MainGame mainGame) {
 //        theme = mainGame.getAudio().createMusic("menutheme.mp3");

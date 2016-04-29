@@ -24,6 +24,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':androidgameframework')
 
+    // Android libraries
     compile 'com.android.support:appcompat-v7:23.3.0'
 
     testCompile 'junit:junit:4.12'

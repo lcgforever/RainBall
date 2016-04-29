@@ -19,6 +19,7 @@ public class LoadingScreen extends Screen {
         Assets.mainBackground = graphics.newImage("img_main_background.jpg", ImageFormat.ARGB8888);
         Assets.gameBackground = graphics.newImage("img_game_background.jpg", ImageFormat.ARGB8888);
         Assets.tileBackground = graphics.newImage("img_tile_background.png", ImageFormat.ARGB8888);
+        Assets.menuOverlay = graphics.newImage("img_menu_overlay.png", ImageFormat.ARGB8888);
         Assets.startMenu = graphics.newImage("img_start_menu.png", ImageFormat.ARGB8888);
         Assets.optionMenu = graphics.newImage("img_option_menu.png", ImageFormat.ARGB8888);
         Assets.exitMenu = graphics.newImage("img_exit_menu.png", ImageFormat.ARGB8888);
@@ -36,12 +37,14 @@ public class LoadingScreen extends Screen {
         Assets.blueBall = graphics.newImage("img_blue_ball.png", ImageFormat.ARGB8888);
         Assets.yellowBall = graphics.newImage("img_yellow_ball.png", ImageFormat.ARGB8888);
         Assets.purpleBall = graphics.newImage("img_purple_ball.png", ImageFormat.ARGB8888);
+        Assets.cyanBall = graphics.newImage("img_cyan_ball.png", ImageFormat.ARGB8888);
         Assets.greyBall = graphics.newImage("img_grey_ball.png", ImageFormat.ARGB8888);
         Assets.redBallLarge = graphics.newImage("img_red_ball_large.png", ImageFormat.ARGB8888);
         Assets.greenBallLarge = graphics.newImage("img_green_ball_large.png", ImageFormat.ARGB8888);
         Assets.blueBallLarge = graphics.newImage("img_blue_ball_large.png", ImageFormat.ARGB8888);
         Assets.yellowBallLarge = graphics.newImage("img_yellow_ball_large.png", ImageFormat.ARGB8888);
         Assets.purpleBallLarge = graphics.newImage("img_purple_ball_large.png", ImageFormat.ARGB8888);
+        Assets.cyanBallLarge = graphics.newImage("img_cyan_ball_large.png", ImageFormat.ARGB8888);
         Assets.greyBallLarge = graphics.newImage("img_grey_ball_large.png", ImageFormat.ARGB8888);
 
         long currentTime = System.currentTimeMillis();

@@ -1,7 +1,6 @@
 package com.chenguangl.androidgameframework.implementation;
 
 import android.content.Context;
-import android.os.Build.VERSION;
 import android.view.View;
 
 import com.chenguangl.androidgameframework.api.Input;
@@ -14,11 +13,12 @@ public class AndroidInput implements Input {
     private TouchHandler touchHandler;
 
     public AndroidInput(Context context, View view, float scaleX, float scaleY) {
-        if (VERSION.SDK_INT < 5) {
-            touchHandler = new SingleTouchHandler(view, scaleX, scaleY);
-        } else {
-            touchHandler = new MultiTouchHandler(view, scaleX, scaleY);
-        }
+//        if (VERSION.SDK_INT < 5) {
+//            touchHandler = new SingleTouchHandler(view, scaleX, scaleY);
+//        } else {
+//            touchHandler = new MultiTouchHandler(view, scaleX, scaleY);
+//        }
+        touchHandler = new SingleTouchHandler(view, scaleX, scaleY);
     }
 
     @Override
