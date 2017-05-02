@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "com.chenguangl.rainball"
@@ -25,7 +25,7 @@ dependencies {
     compile project(':androidgameframework')
 
     // Android libraries
-    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
 
     testCompile 'junit:junit:4.12'
 }
